@@ -15,6 +15,11 @@ Anda dapat mengunggah file CSV dengan format yang sesuai, melihat data, dan meng
 Data yang digunakan berasal dari Kaggle.
 """)
 
+st.markdown("""
+Anda bisa mendownload data dengan format yang sesuai di link [File](https://drive.google.com/drive/folders/1Z4UumYMbnSYtEW5qzfujcsi_1yE30dAn?usp=sharing)
+""")
+
+
 # Upload file CSV
 uploaded_file = st.file_uploader('Unggah file CSV', type='csv')
 
